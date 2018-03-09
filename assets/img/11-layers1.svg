@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="2429" viewBox="0 0 1440 2429">
+	<defs>
+
+	<path id="5k91a" d="M0 1114h1440v2377H0z"/>
+
+	<path id="5k91b" d="M80 3292c0-138.07 111.93-250 250-250s250 111.93 250 250-111.93 250-250 250-250-111.93-250-250z"/>
+
+	<path id="5k91c" d="M180 3292c0-82.84 67.16-150 150-150s150 67.16 150 150-67.16 150-150 150-150-67.16-150-150z"/>
+
+	<path id="5k91d" d="M-212 1524c0-138.07 111.93-250 250-250s250 111.93 250 250-111.93 250-250 250-250-111.93-250-250z"/>
+
+	<path id="5k91e" d="M-112 1524c0-82.84 67.16-150 150-150s150 67.16 150 150-67.16 150-150 150-150-67.16-150-150z"/>
+
+	<path id="5k91f" d="M-142 3124c0-138.07 111.93-250 250-250s250 111.93 250 250-111.93 250-250 250-250-111.93-250-250z"/>
+
+	<path id="5k91g" d="M-42 3124c0-82.84 67.16-150 150-150s150 67.16 150 150-67.16 150-150 150-150-67.16-150-150z"/>
+
+	<path id="5k91h" d="M1048 1614c0-138.07 111.93-250 250-250s250 111.93 250 250-111.93 250-250 250-250-111.93-250-250z"/>
+
+	<path id="5k91i" d="M1148 1614c0-82.84 67.16-150 150-150s150 67.16 150 150-67.16 150-150 150-150-67.16-150-150z"/>
+
+	<path id="5k91j" d="M1103 2341c0-138.07 111.93-250 250-250s250 111.93 250 250-111.93 250-250 250-250-111.93-250-250z"/>
+
+	<path id="5k91k" d="M1203 2341c0-82.84 67.16-150 150-150s150 67.16 150 150-67.16 150-150 150-150-67.16-150-150z"/>
+</defs>
+
+<g><g transform="translate(0 -1114)"><use fill="#f9f9f9" xlink:href="#5k91a"/></g>
+
+<g opacity=".18" transform="translate(0 -1114)"><use fill="#f9f9f9" xlink:href="#5k91b"/><use fill="#fff" fill-opacity="0" stroke="#979797" stroke-miterlimit="50" xlink:href="#5k91b"/></g>
+
+<g opacity=".18" transform="translate(0 -1114)"><use fill="#f9f9f9" xlink:href="#5k91c"/><use fill="#fff" fill-opacity="0" stroke="#979797" stroke-miterlimit="50" xlink:href="#5k91c"/></g>
+
+<g opacity=".32" transform="translate(0 -1114)"><use fill="#f9f9f9" xlink:href="#5k91d"/><use fill="#fff" fill-opacity="0" stroke="#979797" stroke-miterlimit="50" xlink:href="#5k91d"/></g>
+
+<g opacity=".32" transform="translate(0 -1114)"><use fill="#f9f9f9" xlink:href="#5k91e"/><use fill="#fff" fill-opacity="0" stroke="#979797" stroke-miterlimit="50" xlink:href="#5k91e"/></g>
+
+<g opacity=".32" transform="translate(0 -1114)"><use fill="#f9f9f9" xlink:href="#5k91f"/><use fill="#fff" fill-opacity="0" stroke="#979797" stroke-miterlimit="50" xlink:href="#5k91f"/></g>
+
+<g opacity=".32" transform="translate(0 -1114)"><use fill="#f9f9f9" xlink:href="#5k91g"/><use fill="#fff" fill-opacity="0" stroke="#979797" stroke-miterlimit="50" xlink:href="#5k91g"/></g>
+
+<g opacity=".32" transform="translate(0 -1114)"><use fill="#f9f9f9" xlink:href="#5k91h"/><use fill="#fff" fill-opacity="0" stroke="#979797" stroke-miterlimit="50" xlink:href="#5k91h"/></g>
+
+<g opacity=".32" transform="translate(0 -1114)"><use fill="#f9f9f9" xlink:href="#5k91i"/><use fill="#fff" fill-opacity="0" stroke="#979797" stroke-miterlimit="50" xlink:href="#5k91i"/></g>
+
+<g opacity=".32" transform="translate(0 -1114)"><use fill="#f9f9f9" xlink:href="#5k91j"/><use fill="#fff" fill-opacity="0" stroke="#979797" stroke-miterlimit="50" xlink:href="#5k91j"/></g>
+
+<g opacity=".32" transform="translate(0 -1114)"><use fill="#f9f9f9" xlink:href="#5k91k"/><use fill="#fff" fill-opacity="0" stroke="#979797" stroke-miterlimit="50" xlink:href="#5k91k"/></g></g>
+</svg>

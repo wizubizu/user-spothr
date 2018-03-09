@@ -1,0 +1,158 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none !important; 
+  margin: 0 !important; 
+}
+
+#confirmSignUpCode, #showCompleted, #showSpinner,  #hiddenButton, #setupComplete, #showSpinner, #createAgencyDiv, #recoverPasswordDiv, #addClientDiv, #clientTitle, #removeClientTitle, #removeClientDiv, #inviteManagerDiv, #inviteManagerTitle, #addEmployeeDiv, #addEmployeeTitle, #addSiteTitle, #addSiteDiv,  #addJobTitle, #addJobDiv, #addEmployeeSection, #editClientForm, #backToggle, #shiftDetailToggle, #shiftApplications, #assignedEmployees, #shiftCancelRequests, #agencyUpdateDiv, #editAgencyTitle{
+	display: none;
+}
+
+.bd-brand-purple{
+	border: 2px solid #815DC6 !important;
+}
+
+.bd-brand-blue{
+	border: 2px solid #0e83ea !important;
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+.bg-l-blue{
+	background-color: #0e83ea;
+}
+
+.removeCheck{
+	width: 15px;
+    height: 25;
+    display: block !important;
+    z-index: 999999 !important;
+}
+
+/** Pagination UI **/
+	.pagination > li > a{
+		background-color: transparent !important;
+		color: #0e83ea !important;
+		border-color: #0e83ea !important;
+		margin-right: 15px;
+		border-radius: 5px !important;
+	}
+
+	.pagination > li > .indicator{
+		background-color: #0e83ea !important;
+		color: #fff !important;
+	}
+/** Ends... **/
+
+.forms{
+	display: block;
+    width: 100%;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+}
+
+.underline {
+    text-decoration: underline !important;
+}
+
+/*.form-control{
+    height: 58px !important;
+}
+*/
+.flat{
+    border-radius: 0px !important;
+}
+
+.p-l-120{
+    padding-left: 120px;
+}
+
+.country-select
+{
+    width: 100% !important;
+}
+
+.bs3:hover{
+    box-shadow: 0px 0px 10px rgba(102, 63, 181, 0.54) !important;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    background: rgba(102, 63, 181, 0.54) !important;
+    color: #FFF !important;
+}
+
+.bg-blues:hover{
+    color:#FFF !important;
+}
+
+select{
+    height: 42.4px !important;
+}
+
+.label-role{
+    background-color: transparent !important;
+    color: #7500B5 !important;
+    border: 1px solid #7500B5 !important; 
+    font-weight: 100 !important;
+}
+
+.label-identifier{
+    background-color: transparent !important;
+    color: #24b500 !important;
+    border: 1px solid #24b500 !important; 
+    font-weight: 100 !important;
+}
+
+label{
+    font-size: 15px !important;
+    font-family: OpenSans,sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.bs-tiny{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04) !important;
+}
+
+.bs{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2) !important;
+}
+
+.bd-10{
+    border-radius: 7px !important;
+}
+
+.adjust-logo{
+    margin-left: 22% !important;
+    margin-top: 1% !important;
+}
+
+.img-border{
+    border: 1px solid rgba(0,0,0,0.20);
+}
+
+.border-rights{
+    min-height: 40% !important;
+}
+
+.dark-background{
+    background-color: #e3e3e38f !important;
+}
