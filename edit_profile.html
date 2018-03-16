@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <!--Import Google Icon Font-->
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	      <!--Import materialize.css-->
+	    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	    <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+			
+	    <!--Let browser know website is optimized for mobile-->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	    <title>SpotHR - Dashboard</title>
+	</head>
+
+    <body>
+		<nav>
+    		<div class="nav-wrapper">
+	      		<a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+	      		<a class="brand-logo center __logo">Edit Profile</a>
+	      		<a class='dropdown-button' style="margin-left: 234px;" href='#' data-activates='dropdown1'><img src="img/more.svg" style="width: 11px;"></a>
+
+				  <!-- Dropdown Structure -->
+				  <ul id='dropdown1' class='dropdown-content __dropcont'>
+				    <li><a href="setting.html">Setings</a></li>
+				    <li><a href="edit_profile.html">Edit Profile</a></li>
+				    <li><a href="#!">Logout</a></li>
+				  </ul>
+		      	<ul class="side-nav" id="mobile-demo">
+		      		<li class="sidenav-header dark-purple p-10">
+			          <div class="row">
+			            <div class="col s3 m-t-5p">
+			                <img src="https://gravatar.com/avatar/961997eb7fd5c22b3e12fb3c8ca14e11?s=80&d=https://codepen.io/assets/avatars/user-avatar-80x80-bdcd44a3bfb9a5fd01eb8b86f9e033fa1a9897c3a15b33adfc2649a002dab1b6.png" width="48px" height="48px" alt="" class="circle responsive-img valign profile-image">
+
+			            </div>
+			          </div>
+			        </li>
+			        <li>
+			        	
+			        </li>
+					<li><a class="waves-effect waves-blue" href="dashboard.html">Dashboard</a></li>
+					<li><a class="waves-effect waves-blue" href="upcoming.html">Upcoming Shifts</a></li>
+					<li><a class="waves-effect waves-blue" href="activities.html">Activities</a></li>
+					<li><a class="waves-effect waves-blue" href="avaliable.html">Available Shifts</a></li>
+					<li><a class="waves-effect waves-blue" href="cancel.html">Cancel Requests</a></li>
+					<hr>
+					<li ><a class="faint-color">CLIENTS</a></li>
+					<li><a class="waves-effect waves-blue" href="client.html">Eko Volt</a></li>
+		      	</ul>
+	    	</div>
+  		</nav>
+
+
+  		<section>
+  			<div class="container">
+  				<form action="" class="m-t-20p">
+					<div class="card p-10">
+				      	<div class="input-field col s12">
+					       	<input id="name" type="text" class="validate">
+					       	<label for="name">Name</label>
+				        </div>
+				      	
+				      	<div class="input-field col s12">
+					       	<input id="email" type="email" class="validate">
+					       	<label for="email">Email</label>
+				        </div>
+				      	
+				      	<div class="input-field col s12">
+					       	<input id="phone" type="tel" class="validate">
+					       	<label for="phone">Phone</label>
+				        </div>
+				      	
+				      	<div class="input-field col s12">
+					       	<input id="text" type="text" class="validate">
+					       	<label for="text">Address</label>
+				        </div>
+
+				        <div class="input-field col s12">
+					       	<input id="text" type="text" class="validate">
+					       	<label for="text">Post code</label>
+				        </div>
+				      	
+
+				      	<div class="input-field col s12">
+					       	<input id="password" type="password" class="validate">
+					       	<label for="password">Password</label>
+				        </div>
+				      	
+						<div class="row col s12">
+							<a href="dashboard.html" type="submit" class="btn btn-block waves-effect waves-light btn-small">LOG IN</a>
+						</div>
+
+					</div>
+				</form>
+  			</div>
+	  	</section>
+
+		<!--JavaScript at end of body for optimized loading-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+
+		<script>
+	      	// SIDEBAR
+			$(document).ready(function(){
+			  $('.button-collapse').sideNav({
+			      menuWidth: 300, // Default is 300
+			      edge: 'left', // Choose the horizontal origin
+			      closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+			      draggable: true // Choose whether you can drag to open on touch screens
+			    }
+			  );
+			});
+
+			
+
+			$('.dropdown-button').dropdown('open');
+
+			$('.dropdown-button').dropdown('close');
+	    </script>
+    </body>
+</html>
