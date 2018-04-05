@@ -54,7 +54,17 @@
   			<div class="container">
   				<form action="" class="m-t-20p">
 					<div class="card p-10">
-				      	<div class="input-field col s12">
+						<div class="center">
+		                    <div class="img-section">
+		                        <img src="https://gravatar.com/avatar/961997eb7fd5c22b3e12fb3c8ca14e11?s=80&d=https://codepen.io/assets/avatars/user-avatar-80x80-bdcd44a3bfb9a5fd01eb8b86f9e033fa1a9897c3a15b33adfc2649a002dab1b6.png" style=" width:80px; height:80px;" alt="" class="circle responsive-img valign profile-image imgCircle">
+			                    <div class="">
+			                        <h4 class="text-right "><i class="material-icons">create</i></h4>
+			                    </div>
+		                    </div>
+		                    <input type="file" id="image-input" onchange="readURL(this);" accept="image/*"  class="form-control form-input Profile-input-file" >
+		                </div>
+
+		                <div class="input-field col s12">
 					       	<input id="name" type="text" class="validate">
 					       	<label for="name">Name</label>
 				        </div>
@@ -117,6 +127,25 @@
 		<script type="text/javascript" src="js/materialize.min.js"></script>
 
 		<script>
+
+			 //===================== snippet for profile picture change ============================ //
+
+			    function readURL(input) {
+			        if (input.files && input.files[0]) {
+			            var reader = new FileReader();
+			            reader.onload = function (e) {
+			                $('.imgCircle')
+			                        .attr('src', e.target.result)
+			                        .width(80)
+			                        .height(80);
+			            };
+			            reader.readAsDataURL(input.files[0]);
+			        }
+			    }
+
+			//    =================================== ends here ============================================ //
+
+
 	      	// SIDEBAR
 			$(document).ready(function(){
 			  $('.button-collapse').sideNav({
@@ -136,6 +165,11 @@
 			$('.dropdown-button').dropdown('open');
 
 			$('.dropdown-button').dropdown('close');
+
+
+
+			
 	    </script>
+
     </body>
 </html>

@@ -417,3 +417,60 @@ margin-bottom:0px;
 .__detailminp{
     margin-bottom: 0px !important;
 }
+
+
+
+
+
+
+
+
+
+.imgCircle{border-radius: 50%;}
+.form-control{padding: 10px 50px;}
+.form-input{height:50px;border-radius: 0px;margin-top: 20px;}
+.Profile-input-file{
+height: 106px;
+    width: 92px;
+    left: 34%;
+    position: absolute;
+    top: -21px;
+    z-index: 999;
+    opacity: 0 !important;
+}
+
+#main-input{width:250px;}
+.input-place{
+    position: absolute;top:35px;left: 20px;font-size:23px;color:gray;}
+
+.img-section{
+    /*float: left;*/
+   /* width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgba(0,0,0,0.7);
+    position: relative;*/
+}
+.img-section h4{
+    color:#fff;
+    top: 49px;
+    left: 150px;
+    width: 32px;
+    height: 32px;
+    /* border: 1px solid; */
+    background: #663fb5;
+    border-radius: 50%;
+    position: absolute;
+}
+#PicUpload{
+    color: #ffffff;
+    width: 180px;
+    height: 180px;
+    background: rgba(255,255,255,0.4);
+    padding: 100px;
+    position: absolute;
+    left: 30.5%;
+    border-radius: 50%;
+    display: none;
+    top:15px;
+}
