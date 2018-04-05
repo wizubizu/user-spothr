@@ -69,6 +69,7 @@
 }
 
 .__todayimg {
+
     margin-bottom: 0px;
 }
 .__todcal {
@@ -275,4 +276,144 @@
     padding-top: 18px;
     font-size: 12px;
     padding-left: 124px;	
+}
+
+.__detailv{
+margin-left: -19px !important;    
+}
+
+.__detailp{
+    margin-bottom: 0px;
+}
+
+.__detailp1{
+    margin-top: 0px;
+    font-size: 8px;
+    color: #a9a9a9
+}
+
+.__detailp2{
+        margin-top: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #663FB5;
+}
+
+.__detailsp1{
+    font-size: 12px;
+    color: #a9a9a9
+}
+
+.__deatical{
+    width: 12px;
+}
+
+.__detailicon{
+    font-size: 16px;
+    color: #a5370e;
+    margin-right: 4px !important;
+}
+
+.__detailbnt{
+    background: #ff885b;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #333;
+    font-weight: bold;
+    padding: 13px 22px 13px 22px;
+}
+
+.__detailicon1{
+    font-size: 16px;
+    color: #333;
+    margin-right: 4px !important;
+}
+
+.__detailbnt1{
+    background: #ffa600;;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #333;
+    font-weight: bold;
+    padding: 13px 30px 13px 30px;
+}
+
+.__detailbnt3 {
+    background:#ff885b ;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #333;
+    font-weight: bold;
+    padding: 13px 28px 13px 30px;
+}
+
+.__detailicon3 {
+    font-size: 16px;
+    color: #333;
+    margin-right: 4px !important;
+}
+
+.__detailbnt2 {
+    background: #ffa600;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #333;
+    font-weight: bold;
+    padding: 13px 34px 13px 34px;
+}
+
+.__detailicon2{
+    font-size: 16px;
+    color: #a5370e;
+    margin-right: 4px !important;
+}
+
+
+.__detail1img{
+    margin-top: -19px;
+    }
+
+.__detailb{
+    margin-left: 20px;
+    }
+
+.__detail1 {
+    font-size: 20px !important;
+    width: 220px;
+    margin-top: -57px;
+    margin-left: 20px;
+}
+
+.__detailmo{
+    text-align: unset;
+}
+
+.__detailmo1{
+padding: 0 0rem;
+    font-size: 9px;
+    color: #663FB5;
+    font-weight: bold;
+}
+
+.__detailmp{
+font-size: 10px;
+margin-bottom:0px;
+}
+
+.__detailmp1{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.__detailmp2{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.__detailmod{
+    padding: 17px 24px 0px 24px !important;
+}
+
+.__detailminp{
+    margin-bottom: 0px !important;
 }

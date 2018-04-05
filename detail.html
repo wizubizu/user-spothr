@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <!--Import Google Icon Font-->
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	      <!--Import materialize.css-->
+	    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	    <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+			
+	    <!--Let browser know website is optimized for mobile-->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	    <title>SpotHR - Dashboard</title>
+	</head>
+
+    <body>
+		<nav>
+    		<div class="nav-wrapper">
+	      		<a href="upcoming.html"  class="show-on-large"><i class="material-icons __detailb">arrow_back</i></a>
+	      		<a class="brand-logo __detail1 ">Details</a>
+	      		<a class='dropdown-button' style="margin-left: 234px;" href='#' data-activates='dropdown1'><img src="img/more.svg" style="width: 11px;"></a>
+
+				  <!-- Dropdown Structure -->
+				  <ul id='dropdown1' class='dropdown-content __dropcont'>
+				    <li><a href="setting.html">Setings</a></li>
+				    <li><a href="edit_profile.html">Edit Profile</a></li>
+				    <li><a href="#!">Logout</a></li>
+				  </ul>
+		      	<ul class="side-nav" id="mobile-demo">
+		      		<li class="sidenav-header dark-purple p-10">
+			          <div class="row">
+			            <div class="col s3 m-t-5p">
+			                <img src="https://gravatar.com/avatar/961997eb7fd5c22b3e12fb3c8ca14e11?s=80&d=https://codepen.io/assets/avatars/user-avatar-80x80-bdcd44a3bfb9a5fd01eb8b86f9e033fa1a9897c3a15b33adfc2649a002dab1b6.png" width="48px" height="48px" alt="" class="circle responsive-img valign profile-image">
+
+			            </div>
+			          </div>
+			        </li>
+			        <li>
+			        	
+			        </li>
+					<li><a class="waves-effect waves-blue" href="dashboard.html">Dashboard</a></li>
+					<li><a class="waves-effect waves-blue" href="upcoming.html">Upcoming Shifts</a></li>
+					<li><a class="waves-effect waves-blue" href="activities.html">Activities</a></li>
+					<li><a class="waves-effect waves-blue" href="avaliable.html">Available Shifts</a></li>
+					<li><a class="waves-effect waves-blue" href="cancel.html">Cancel Requests</a></li>
+					<hr>
+					<li ><a class="faint-color">CLIENTS</a></li>
+					<li><a class="waves-effect waves-blue" href="client.html">Eko Volt</a></li>
+		      	</ul>
+	    	</div>
+  		</nav>
+
+
+  		<section>
+  			<div class="container">
+  				<div class="row">
+  					<div class="col s3 m-t-5p">
+		                <img src="https://gravatar.com/avatar/961997eb7fd5c22b3e12fb3c8ca14e11?s=80&d=https://codepen.io/assets/avatars/user-avatar-80x80-bdcd44a3bfb9a5fd01eb8b86f9e033fa1a9897c3a15b33adfc2649a002dab1b6.png" width="48px" height="48px" alt="" class="circle responsive-img valign profile-image">
+
+		            </div>
+
+		            <div class="col s9 __detailv">
+		            	<p class="__detailp">Eko Volt</p>
+		            	<p class="__detailp1">6th Floor, 294 Herbert Marcauly way Sabo, Yaba Lagos, 24, Arowolo Street, Iwaya, Yaba</p>
+		            </div>
+  				</div>
+
+  				<p class="__detailp2">10:30 AM - 3:00 PM</p>
+  				<p class="__todayimg"><span><img src="img/event-calendars.svg" class="__deatical"></span> <span class="__detailsp1">Thursday, April 5, 2018.</span>
+
+  				<div>
+  					<!-- <img src="assets/img/map.png" alt="Avatar" style="width: 100%;height: 25vh;" class=""> -->
+				  	<div id="googleMap" style="height:160px;width:100%; margin-top: 10%;"></div>
+						<script>
+						function myMap() {
+						var myCenter = new google.maps.LatLng(6.601709, 3.343782);
+						var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+						var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+						var marker = new google.maps.Marker({position:myCenter});
+						marker.setMap(map);
+						}
+						</script>
+						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB63Rxydh3k1S6TOUsOH11cF4OmVyMf27A&callback=myMap"></script>
+							<!--
+						To use this code on your website, get a free API key from Google.
+					Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+					-->
+  				</div>
+
+  				<p>JOB TITLE</p>
+  				<p class="__detailp1">NEW SHIFT</p>
+  				<p>JOB DETAILS</p>
+  				<p class="__detailp1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  				<div class="row">
+  					<div class="col s6">
+  						<a class="waves-effect waves-light btn-small __detailbnt"><i class="material-icons left __detailicon">cancel</i>CANCEL SHIFT</a>
+  					</div>
+  					<div class="col s6">
+  						<a class="waves-effect waves-light btn-small __detailbnt1 modal-trigger" href="#modal1"><i class="material-icons left __detailicon1">access_time</i>CLOCK IN</a>
+  					</div>
+  				</div>
+
+  			</div>
+	  	</section>
+
+
+
+	  	<!-- modal -->
+
+	  	<!-- Modal Trigger -->
+	  <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+
+	  <!-- Modal Structure -->
+	  <div id="modal1" class="modal">
+	    <div class="modal-content __detailmod">
+	        <h4 class="__detailmp1">Clock In</h4>
+	        <p class="__detailmp">You're not at the location of your shift yet</p>
+	    </div>
+	    <div class="modal-footer __detailmo">
+	        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat __detailmo1">CANCEL</a>&nbsp; &nbsp;&nbsp;
+	        <a class="modal-action modal-close waves-effect waves-green btn-flat __detailmo1 modal-trigger" href="#modal2">CLOCK IN WITH REASON</a>&nbsp;&nbsp;
+	    </div>
+	  </div>
+
+	  <!-- second modal for reason -->
+	  <div id="modal2" class="modal">
+	    <div class="modal-content __detailmod">
+	        <h4 class="__detailmp2">Reason for not being on location</h4>
+	        <div class="input-field col s12">
+		       	<input id="name" type="text" class="validate __detailminp">
+		       	<label for="name">Name</label>
+	        </div>
+	    </div>
+	    <div class="modal-footer">
+	      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat __detailmo1">CLOCK IN</a>&nbsp;&nbsp;
+	    </div>
+	  </div>
+
+
+	 
+
+		<!--JavaScript at end of body for optimized loading-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+
+		<script>
+	      	// SIDEBAR
+			$(document).ready(function(){
+			  $('.button-collapse').sideNav({
+			      menuWidth: 300, // Default is 300
+			      edge: 'left', // Choose the horizontal origin
+			      closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+			      draggable: true // Choose whether you can drag to open on touch screens
+			    }
+			  );
+			});
+
+			$(document).ready(function(){
+		    $('.modal').modal();
+		  	});
+
+
+			$('.dropdown-button').dropdown('open');
+
+			$('.dropdown-button').dropdown('close');
+	    </script>
+    </body>
+</html>
